@@ -4,6 +4,39 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
+# Meteor Core
 meteor-platform
+accounts-base
+accounts-password
+
+# Utils
+reactive-var
+momentjs:moment
+digilord:faker
+dburles:factory
+anti:fake
+yamb:randomusers
+raix:handlebar-helpers
+
+# Router/Plugins
 iron:router
+zimme:iron-router-auth
+zimme:active-route
+
+# Collections
+dburles:collection-helpers
+aldeed:collection2
+
+# UI/Layouts
+fourseven:scss
+yang2007chun:materialize-scss
+useraccounts:materialize
+useraccounts:core
+percolate:velocityjs
+
+# Forms
+aldeed:autoform
+gildaspk:autoform-materialize
+
+# SEO & Stuff
 yasinuslu:blaze-meta

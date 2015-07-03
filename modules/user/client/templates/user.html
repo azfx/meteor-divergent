@@ -1,0 +1,24 @@
+<template name="user">
+  <div class="row">
+    <div class="col s12 m6 offset-m3">
+      <div class="card">
+        <nav>
+          <div class="nav-wrapper white">
+            <a href="/users" class="black"><i class="mdi-navigation-arrow-back card-nav-icons"></i></a>
+          </div>
+        </nav>
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="{{profile.photo.large}}">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">{{profile.name.first}} {{profile.name.last}}<i class="mdi-navigation-more-vert right"></i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">{{profile.name.first}} {{profile.name.last}}<i class="mdi-navigation-close right"></i></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan nec ante vel consectetur. Phasellus bibendum vestibulum sem, eget consequat tortor condimentum nec. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod arcu ac blandit pharetra. Nulla lectus ex, consequat ut lacus id, imperdiet commodo risus. Curabitur dignissim maximus quam non eleifend. Fusce in ipsum ut metus vulputate gravida nec ac felis. Donec iaculis dolor ut urna egestas mollis vitae pharetra tortor. Donec molestie lacinia neque. Integer vitae urna vitae felis iaculis consectetur rutrum laoreet purus..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

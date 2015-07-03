@@ -1,0 +1,82 @@
+<template name="home">
+  <div class="parallax-container hide-on-small-only">
+    <div class="parallax"><img src="images/meteor-divergent.png"></div>
+  </div>
+  <div class="hide-on-med-and-up">
+    <img class="responsive-img" src="images/meteor-divergent.png">
+  </div>
+  <div class="section container">
+    <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="material-icons">dashboard</i></h2>
+            <h5 class="center">Modular Structure</h5>
+
+            <p class="light">Uses modular project structure, with less entangled feature components, enabling more independent module development.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="material-icons">check</i></h2>
+            <h5 class="center">Materialize</h5>
+
+            <p class="light">Uses <a href="http://materializecss.com/about.html">Materialize</a> theme built by the awesome students at Carnegie Melon University. Enabled by <a href="https://atmospherejs.com/yang2007chun/materialize-scss">yang2007chun:materialize-scss</a> meteor package.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Basic Animations</h5>
+
+            <p class="light">Includes basic page transitions, and element animations enabled by <a href="https://atmospherejs.com/percolate/velocityjs">percolate:velocityjs</a> meteor package.</p>
+          </div>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col s12">
+        <h4 class="light">Structure</h4>
+        <pre><code class="language-markup col s12 grey lighten-4">
+          |--app/
+            |--client
+               |--config
+               |--helpers
+               |--layouts
+                 |--styles
+            |--lib
+               |--router
+                  |--app.router.js
+            |--server
+               |--app.methods.js
+          <b>
+          |--modules/
+            |--module1/
+               |--client/
+                  |--templates/
+                  |--helpers/
+                  ..
+               |--lib/
+                  |--module1.collections.js
+                  |--module1.router.js
+                  ..
+               |--server/
+                  |--module1.methods.js
+                  |--module1.publications.js
+                  ..
+            |--module2/
+              ..
+          </b>
+          |--packages/
+             ..
+          |--private/
+             ..
+          |--public/
+             ..
+          |--settings/
+             ..
+        </code></pre>
+      </div>
+    </div>
+  </div>
+</template>

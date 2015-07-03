@@ -1,6 +1,6 @@
 Meta.config({
   options: {
-    title: "Meteor YAMB",
-    suffix: "Yet Another Meteor Boilerplate!"
+    title: "Divergent",
+    suffix: "Different kind of boilerplate"
   }
 });

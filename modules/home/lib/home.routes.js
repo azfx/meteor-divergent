@@ -1,14 +1,19 @@
-console.log ("## Loading routes for /");
+console.log ("## Loading routes for home");
 
-  Router.map(function() {
-   this.route('/', {
-     name:"home",
-     onBeforeAction: function() {
-      console.log("/: onBeforeAction")
-      this.next();
-     },
-     onAfterAction: function() {
-       console.log("/: onBeforeAction")
-     }
-    });
+HomeController = AppController.extend({
+
+});
+
+Router.map(function() {
+ this.route('/', {
+   name:"home",
+   controller: 'HomeController',
+   onBeforeAction: function() {
+    console.log("/: onBeforeAction")
+    this.next();
+   },
+   onAfterAction: function() {
+     console.log("/: onAfterAction")
+   }
   });
+});
