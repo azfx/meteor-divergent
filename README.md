@@ -5,13 +5,13 @@
 
 ## Highlights
 
-### Modular
+### Modularized
 Uses modular project structure, with less entangled feature components, enabling more independent module development.
 
-### Materialize
+### Materialized
 Uses <a href="http://materializecss.com/about.html">Materialize</a> theme built by the awesome students at Carnegie Melon University. Enabled by <a href="https://atmospherejs.com/yang2007chun/materialize-scss">yang2007chun:materialize-scss</a> meteor package.
 
-### Basic Transitions/Animations
+### Animated
 Includes basic page transitions, and element animations enabled by <a href="https://atmospherejs.com/percolate/velocityjs">percolate:velocityjs</a> meteor package.
 
 
