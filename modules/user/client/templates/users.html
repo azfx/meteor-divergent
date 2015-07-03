@@ -1,11 +1,7 @@
 <template name="users">
-  <div class="container">
-    <h2>Users</h2>
-
-    <ul id="user-list" class="collection">
-      {{#each users}}
-        {{> _user this}}
-      {{/each}}
-    </ul>
-  </div>
+  {{#if Template.subscriptionsReady}}
+    {{> _users}}
+  {{else}}
+    {{> loading}}
+  {{/if}}
 </template>
