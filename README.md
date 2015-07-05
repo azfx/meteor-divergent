@@ -1,6 +1,8 @@
 # Meteor Divergent
 ### A different kind of meteor boilerplate..
 
+<img src="./divergent.gif">
+
 ####[Available live for your viewing](http://divergent.meteor.com)
 
 ## Highlights
@@ -17,4 +19,3 @@ Includes basic page transitions, and element animations enabled by <a href="http
 
 ## Ingredients
 Please refer the [list](./.meteor/packages) of packages.
-
